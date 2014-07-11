@@ -1,0 +1,204 @@
+
+	/* ************************************ */
+	/*                                               */
+	/*       Cores usadas no layout      */
+	/*                                               */
+	/*      amarelo ouro:   #f90            */
+	/*      cinza fundos:   #F5F5F5      */
+	/*      cinza bordas:   #B6B6B6     */
+	/*      azul link:         #336699       */
+	/*      azul link ativo: #003366       */
+	/*                                               */
+	/* ************************************ */
+	
+/* Default styles */
+/* @imports prevents parallel downloads, use <link> instead */
+@import "css/reset.css";
+
+/* * { margin:0; padding:0; }*/
+
+body {
+    font: normal 14px/120% Arial,Helvetica,sans-serif;
+	background: #22b14c url('../images/bg-prj-final.png') repeat-x center top;
+	color:#636363;
+    margin:0; 
+    padding:0;
+}
+
+section {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 120%;
+}
+
+h1{font-size:4.8em;font-weight:normal;font-family:"helveticaneuelight",helvetica,arial,sans-serif}
+h2{font-size:3.2em}
+h3{font-size:2.4em}
+h4{font-size:2.2em}
+h5{font-size:2.2em}
+h6{font-size:1.8em}
+
+.titulo_pagina {
+    font-family: 'Montserrat', sans-serif;
+    /*font-size: 20px;*/
+    text-align: left;
+    color: #2f2f2f;
+    line-height: 44px;
+    border-bottom:solid 4px #33c75e;
+}
+
+
+#content {
+    width: 950px;
+    min-height: calc(100% - 156px);
+    overflow: hidden;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    background-color: white;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 43px auto 0 auto;
+    position: relative;
+    padding: 0 0 156px 0;
+}
+
+#logo {
+    position:relative;
+    float:left;
+    background: url('../images/35px-atom.png');
+    height:35px;
+    width:35px;
+    margin: 10px 20px;
+    
+}
+
+#logo-texto{float: left;position: relative;font-size: 1.6em;}
+
+#nav-top-menu {
+    border-bottom:2px solid #ccc;
+    height:55px;
+}
+
+#nav-top-menu ul {
+    list-style:none; 
+    position: relative;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    top: 10px;
+}
+
+#nav-top-menu ul li {
+    display: inline;
+    margin-right:30px;
+}
+
+#nav-top-menu ul li a {
+    text-decoration: none;
+    color: #2f2f2f;
+    font-weight:bold;
+    text-shadow: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+     
+}  
+
+#nav-top-menu ul li a:hover {
+    color: #33c75e;
+}
+
+
+#f-menu {
+    
+    height:54px;
+}
+
+#f-menu ul {
+    display:inline-block;
+    list-style:none; 
+    position: relative;
+    float: right;
+    margin-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    
+}
+
+#f-menu ul li {
+    display: inline;
+     
+}
+
+#f-menu ul li a {
+    text-decoration: none;
+    color: #2f2f2f;
+    font-weight:bold;
+    text-shadow: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+     
+}  
+
+#f-menu ul li a:hover {
+    color: #33c75e;
+}
+
+
+.center{margin:0 auto;}
+
+
+#banner-inicial {
+ 
+position: relative;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+.conteudo {padding:30px;}
+
+#footer {
+    position: absolute;
+    bottom: 34px;
+    border-top: solid 4px #33c75e;
+    height: 98px;
+    width: 100%;
+    color: #2f2f2f;
+    /* background: #22b14c url('../images/footer_bg.jpg') no-repeat center top; */
+    padding-top:10px;
+    padding-bottom:30px;
+    
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: #2f2f2f;
+    text-shadow: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    height: 34px;
+    width: 100%;
+    background: #2f2f2f;
+}
+.copyright-text {
+    margin-right: 40px;
+    text-align: right;
+    font-size: 11px;
+    padding-top: 11px;
+    color: white;
+}
